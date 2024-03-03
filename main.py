@@ -76,7 +76,7 @@ def main(page: ft.Page):
     page.window_min_width = 450
     page.window_width = 450
     page.window_min_height = 565
-    page.window_height = 565
+    page.window_height = 575
     
     # App Bar
     page.appbar = ft.CupertinoAppBar(
