@@ -4,7 +4,7 @@
 > **Cross-platform calculator application for BMD.**
 
 
-<img src="./img/screenshot-light.png" width="600">
+<img src="./img/screenshot-light.png" width="400">
 
 ---
 
