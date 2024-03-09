@@ -5,7 +5,7 @@ def attempt_float(x: str):
         if x == "":
             return None
         else:
-            raise ValueError(f"x = `{x}` must be a number")
+            raise ValueError(f"x = `{x}` must be a string of number")
         
 def parse_str_to_num_or_list(x: str, sep = ","):
     if not isinstance(x, str):
@@ -23,6 +23,18 @@ def parse_str_to_num_or_list(x: str, sep = ","):
             return None
         else:
             raise ValueError(f"x = `{x}` must be string of number(s) separated by comma")
+
+def read_markdown_file(file_path):
+    try:
+        # Open the markdown file in read mode
+        with open(file_path, 'r', encoding='utf-8') as file:
+            # Read the entire file content into a string
+            markdown_content = file.read()
+            return markdown_content
+    except FileNotFoundError:
+        print(f"The file {file_path} was not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
         
 if __name__ == "__main__":
     print(parse_str_to_num_or_list("1.1"))

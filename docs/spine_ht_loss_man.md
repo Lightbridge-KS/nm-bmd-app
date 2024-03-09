@@ -1,0 +1,2 @@
+- Input height in centimeter (e.g. 10)
+- Comma-separated value to calculate mean (e.g. 10, 12)

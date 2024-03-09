@@ -1,0 +1,3 @@
+- Input current value as number (e.g. 2)
+- Input previous value as number (e.g. 1)
+- % change = (current - previous) * 100 / previous
