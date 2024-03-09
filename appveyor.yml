@@ -14,7 +14,7 @@ install:
 - pip install pyinstaller pillow
 
 build_script:
-- flet pack main.py --name "BMD-Helper" --icon assets/icon.png --product-name "BMD-Helper" --product-version "0.0.1" --copyright "Copyright (c) 2024 Lightbridge-KS."
+- flet pack main.py --name "BMD-Helper" --icon assets/icon.png --product-name "BMD-Helper" --product-version "0.2.0" --copyright "Copyright (c) 2024 Lightbridge-KS."
 
 test: off
 
