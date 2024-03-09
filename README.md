@@ -1,5 +1,6 @@
 # BMD Helper Application <a href="https://github.com/Lightbridge-KS/nm-bmd-app"><img src="assets/icon.png" align="right" height="138" /></a>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe367a29-0bf3-491b-8b70-0279ba97a09a/deploy-status)](https://app.netlify.com/sites/nm-bmd-helper-lightbridge/deploys)
 
 > **Cross-platform calculator application for BMD calculation.**
 
