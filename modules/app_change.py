@@ -5,7 +5,7 @@ from flet import (
 )
 import nm
 from utils import attempt_float, read_markdown_file
-
+from modules.manual import man_app
 
 # Change App
 class AppChange(ft.UserControl):
@@ -35,7 +35,7 @@ class AppChange(ft.UserControl):
                  self.btn,
                  self.output_text_field,
                  ft.Text("How to use", theme_style=ft.TextThemeStyle.TITLE_MEDIUM), 
-                 ft.Markdown(read_markdown_file("man/change_app_man.md"), selectable=True)
+                 ft.Markdown(man_app["change"], selectable=True)
                  ]
             )
         )
