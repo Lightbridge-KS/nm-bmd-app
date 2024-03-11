@@ -1,7 +1,7 @@
 import flet as ft
 import pyperclip
-from app_spine_ht_loss import AppSpineHtLoss
-from app_change import AppChange
+from modules import AppSpineHtLoss
+from modules import AppChange
 from utils import parse_str_to_num_or_list, attempt_float, read_markdown_file
 
 
