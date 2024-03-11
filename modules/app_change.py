@@ -35,7 +35,7 @@ class AppChange(ft.UserControl):
                  self.btn,
                  self.output_text_field,
                  ft.Text("How to use", theme_style=ft.TextThemeStyle.TITLE_MEDIUM), 
-                 ft.Markdown(read_markdown_file("docs/change_app_man.md"), selectable=True)
+                 ft.Markdown(read_markdown_file("man/change_app_man.md"), selectable=True)
                  ]
             )
         )

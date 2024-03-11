@@ -25,6 +25,8 @@ def parse_str_to_num_or_list(x: str, sep = ","):
             raise ValueError(f"x = `{x}` must be string of number(s) separated by comma")
 
 def read_markdown_file(file_path):
+    from pathlib import Path
+    file_path = Path(file_path)
     try:
         # Open the markdown file in read mode
         with open(file_path, 'r', encoding='utf-8') as file:
