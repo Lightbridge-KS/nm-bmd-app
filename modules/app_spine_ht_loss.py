@@ -5,7 +5,7 @@ from flet import (
 )
 import nm
 from utils import parse_str_to_num_or_list, read_markdown_file
-from modules.manual import man_app
+from modules.manual import read_man # man_app
 
 # Spine Ht Loss App
 class AppSpineHtLoss(ft.UserControl):
@@ -36,7 +36,8 @@ class AppSpineHtLoss(ft.UserControl):
                  self.btn,
                  self.output_text_field,
                  ft.Text("How to use", theme_style=ft.TextThemeStyle.TITLE_MEDIUM), 
-                 ft.Markdown(man_app["spine_ht_loss"], selectable=True)
+                 # ft.Markdown(man_app["spine_ht_loss"], selectable=True)
+                 ft.Markdown(read_man("spine_ht_loss_man.md"), selectable=True)
                  ]
             )
         )
